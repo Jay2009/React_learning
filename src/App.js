@@ -11,11 +11,11 @@ class App extends Component {
       <button onClick={() => this.scrollBox.scrollToBottom()}>
         go to the botton
         </button>
+        
       </div>
     );
   }
 }
-
 
 
 
