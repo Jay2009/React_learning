@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import LifeCycleSample from './LifeCycleSample';
 import Counter from './Counter';
-
+import InputSample from './InputSample';
 
 function getRandomColor() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
@@ -10,7 +10,7 @@ function getRandomColor() {
 
 function App() {
   return (
-    <Counter />
+    <InputSample />
   );
 }
 
