@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
 import LifeCycleSample from './LifeCycleSample';
+import Counter from './Counter';
+
 
 function getRandomColor() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
 
-class App extends Component {
+function App() {
+  return (
+    <Counter />
+  );
+}
+
+/*class App extends Component {
   state = {
     color: '#000000'
   }
@@ -25,7 +33,7 @@ class App extends Component {
       </div>
     );
   }
-}
+}*/
 
 
 export default App;
